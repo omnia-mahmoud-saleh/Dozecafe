@@ -1,0 +1,87 @@
+.sec-1{
+    background-image: none;
+}
+
+.navbar{
+    background-image: url(../asset/img/header-bg.png);
+}
+
+.nav-item a{
+    color: black;
+    transition: all 0.5s;
+}
+.nav-item a:hover{
+    border-bottom: 2px solid black;
+}
+.login, .search{
+    color: black;
+}
+@media (max-width:750px){
+    .navbar-brand{
+        font-size: 30px;
+        padding-left: 20px;
+    }
+}
+
+.sec-3 .our{
+    margin-top: 120px;
+}
+@media (max-width:750px){
+    .sec-3 .our{
+        margin-top: 20px;
+    }
+
+    .sec-6 .our-blog{
+        margin-top: 50px;
+    } 
+}
+
+
+@media (max-width:750px){
+    .sec-5{
+        margin-bottom: 580px;
+    }
+    .sec-5 .container{
+        margin-top: 30px;
+    }
+    .sec-5 .what-say{
+        margin-top: 70px;
+    }
+    .what-say h1{
+        padding-top: 0px;
+        font-size: 29px;
+    }
+}
+
+.sec-4 .about{
+    margin-top: 130px;
+}
+@media (max-width:750px){
+   .sec-4 .about{
+    margin-top: 70px;
+   }
+   .parent{
+    margin-bottom: 250px;
+   }
+   .parent .big-img img{
+    width: 90%;
+    padding-left: 20px;
+    height: 300px;
+    position: absolute;
+}
+.parent .distribution{
+    position: relative;
+    top: 230px;
+    left: 19px;
+    width: 85%;
+    height: 370px;
+}
+
+.sec-7 .get-in{
+    margin-top: 100px;
+}
+
+.final-sec{
+    margin-top: 0px;
+   }
+}
